@@ -29,11 +29,11 @@ const StatisticTable = ({ title, data, className }) => {
     <Table className={className}>
       <TableHead>
         <TableRow style={{ backgroundColor: "#a9a9a9" }}>
-          <TableCell style={{ color: "white" }}>Player</TableCell>
+          <TableCell style={{ color: "white" }}>Jugador</TableCell>
           <TableCell style={{ color: "white" }} numeric>
             {title}
           </TableCell>
-          <TableCell style={{ color: "white" }}>Team</TableCell>
+          <TableCell style={{ color: "white" }}>Equipo</TableCell>
         </TableRow>
       </TableHead>
       <TableBody>{sortData(data, statisticParameter)}</TableBody>

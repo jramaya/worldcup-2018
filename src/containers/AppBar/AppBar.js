@@ -95,22 +95,22 @@ class NavAppBar extends React.Component {
                   color="inherit"
                   onClick={() => history.push("/fixtures")}
                 >
-                  Fixtures
+                  Partidos
                 </Button>
                 <Button color="inherit" onClick={() => history.push("/teams")}>
-                  Teams
+                  Equipos
                 </Button>
                 <Button
                   color="inherit"
                   onClick={() => history.push("/stadiums")}
                 >
-                  Stadiums
+                  Estadios
                 </Button>
                 <Button
                   color="inherit"
                   onClick={() => history.push("/statistics")}
                 >
-                  Statistics
+                  Resultados
                 </Button>
               </div>
             </Hidden>

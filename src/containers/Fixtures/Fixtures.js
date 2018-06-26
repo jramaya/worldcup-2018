@@ -60,8 +60,8 @@ class Fixtures extends React.Component {
   }
 
   onMatchCategoryChange = name => event => {
-    this.setState({[name]: event.target.checked});
-  }
+    this.setState({ [name]: event.target.checked });
+  };
 
   handleTabChange = (event, tabSelector) => {
     this.setState({ tabSelector });
@@ -70,7 +70,7 @@ class Fixtures extends React.Component {
   renderFixtures() {
     const { groups, teams, stadiums, knockoutMatches, classes } = this.props;
     const { tabSelector, checkedResults, checkedFixtures } = this.state;
-    const {onMatchCategoryChange} = this;
+    const { onMatchCategoryChange } = this;
 
     let groupMatches = [];
     let knockouts = [];
@@ -85,21 +85,26 @@ class Fixtures extends React.Component {
       knockouts.push(value);
     }
 
-    let groupProps = { groupMatches, teams, stadiums, checkedResults, checkedFixtures, onMatchCategoryChange };
+    let groupProps = {
+      groupMatches,
+      teams,
+      stadiums,
+      checkedResults,
+      checkedFixtures,
+      onMatchCategoryChange
+    };
     let knockoutProps = { knockouts, stadiums };
 
     return (
       <div className={classes.fixturesContainer}>
         <AppBar position="static">
           <Tabs value={tabSelector} onChange={this.handleTabChange}>
-            <Tab label="GROUP STAGE" />
-            <Tab label="KNOCKOUT STAGE" />
+            <Tab label="Fase de Grupos" />
+            <Tab label="Ronda de eliminación" />
           </Tabs>
         </AppBar>
         <div>
-          <div>
-            {tabSelector === 0 && <GroupFixtures {...groupProps} />}
-          </div>
+          <div>{tabSelector === 0 && <GroupFixtures {...groupProps} />}</div>
           <div className={fixtureStyles.displayKnockout}>
             {tabSelector === 1 && <KnockoutFixtures {...knockoutProps} />}
           </div>

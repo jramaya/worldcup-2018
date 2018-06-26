@@ -81,7 +81,7 @@ class Statistics extends React.Component {
             style={linkStyles}
             onClick={() => history.push("/teams/statistics")}
           >
-            Check out the teams statistics
+            Echa un vistazo a las estadísticas de los equipos
           </a>
         </h2>
         {this.renderStatistics()}
