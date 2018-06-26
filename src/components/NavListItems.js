@@ -8,16 +8,16 @@ const NavListItems = props => {
   return (
     <div>
       <ListItem button onClick={() => history.push("/fixtures")}>
-        <ListItemText primary="Fixtures" />
+        <ListItemText primary="Partidos" />
       </ListItem>
       <ListItem button onClick={() => history.push("/teams")}>
-        <ListItemText primary="Teams" />
+        <ListItemText primary="Equipos" />
       </ListItem>
       <ListItem button onClick={() => history.push("/stadiums")}>
-        <ListItemText primary="Stadiums" />
+        <ListItemText primary="Estadios" />
       </ListItem>
       <ListItem button onClick={() => history.push("/statistics")}>
-        <ListItemText primary="Statistics" />
+        <ListItemText primary="Resultados" />
       </ListItem>
     </div>
   );
