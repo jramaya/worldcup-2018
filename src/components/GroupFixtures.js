@@ -111,6 +111,7 @@ const GroupFixtures = ({
             }
             return [];
           })
+          .reverse()
           .map((match, i) => {
             let homeTeam = teams.filter(team => team.id === match.home_team);
             let awayTeam = teams.filter(team => team.id === match.away_team);
