@@ -89,7 +89,7 @@ const GroupFixtures = ({
           onChange={onMatchCategoryChange("checkedFixtures")}
           value="fixtures"
           color="primary"
-        />Partidos
+        />Siguientes Partidos
       </label>
       <label className={classes.textStyle}>
         <Checkbox
