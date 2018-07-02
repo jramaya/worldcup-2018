@@ -12,9 +12,7 @@ export const setCurrentStadium = stadiumId => ({
 
 export const setData = () => dispatch => {
   dispatch({ type: REQUEST_DATA_PENDING });
-  fetch(
-    "https://raw.githubusercontent.com/lsv/fifa-worldcup-2018/master/data.json"
-  )
+  fetch("http://fifa2018.webapps.mobi/data.json")
     .then(res => res.json())
     .then(data => {
       dispatch({ type: REQUEST_DATA_SUCCESS, payload: data });
