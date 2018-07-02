@@ -48,7 +48,7 @@ class Fixtures extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      tabSelector: 0,
+      tabSelector: 1,
       checkedResults: true,
       checkedFixtures: true,
       groupMatches: []
@@ -93,7 +93,7 @@ class Fixtures extends React.Component {
       checkedFixtures,
       onMatchCategoryChange
     };
-    let knockoutProps = { knockouts, stadiums };
+    let knockoutProps = { knockouts, stadiums, teams };
 
     return (
       <div className={classes.fixturesContainer}>

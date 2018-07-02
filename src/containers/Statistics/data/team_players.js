@@ -18,7 +18,7 @@ export const playerData = [
       {
         id: 3,
         name: "Artem Dzyuba",
-        goals: 2,
+        goals: 3,
         assists: 1
       },
       {
@@ -109,13 +109,19 @@ export const playerData = [
         id: 3,
         name: "Luis Suarez",
         goals: 2,
-        assists: 0
+        assists: 1
       },
       {
         id: 4,
         name: "Edinson Cavani",
-        goals: 1,
+        goals: 3,
         assists: 0
+      },
+      {
+        id: 5,
+        name: "Rodrigo Bentancur",
+        goals: 0,
+        assists: 1
       }
     ]
   },
@@ -150,6 +156,18 @@ export const playerData = [
       {
         id: 5,
         name: "Adrien Silva",
+        goals: 0,
+        assists: 1
+      },
+      {
+        id: 6,
+        name: "Pepe",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 7,
+        name: "Raphael Guerreiro",
         goals: 0,
         assists: 1
       }
@@ -246,14 +264,32 @@ export const playerData = [
       {
         id: 1,
         name: "Antoine Griezmann",
-        goals: 1,
+        goals: 2,
         assists: 0
       },
       {
         id: 2,
         name: "Kylian Mbappe",
+        goals: 3,
+        assists: 0
+      },
+      {
+        id: 3,
+        name: "Benjamin Pavard",
         goals: 1,
         assists: 0
+      },
+      {
+        id: 4,
+        name: "Lucas Hernandez",
+        goals: 0,
+        assists: 1
+      },
+      {
+        id: 5,
+        name: "Olivier Giroud",
+        goals: 0,
+        assists: 1
       }
     ]
   },
@@ -272,7 +308,20 @@ export const playerData = [
   {
     team: "Peru",
     teamid: 11,
-    players: []
+    players: [
+      {
+        id: 1,
+        name: "Andre Carrillo",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 2,
+        name: "Jose Paolo Guerrero",
+        goals: 1,
+        assists: 1
+      }
+    ]
   },
   {
     team: "Denmark",
@@ -295,6 +344,18 @@ export const playerData = [
         name: "Nicolai Joergensen",
         goals: 0,
         assists: 1
+      },
+      {
+        id: 4,
+        name: "Mathias Joergensen",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 5,
+        name: "Thomas Delaney",
+        goals: 0,
+        assists: 1
       }
     ]
   },
@@ -305,14 +366,38 @@ export const playerData = [
       {
         id: 1,
         name: "Sergio Aguero",
-        goals: 1,
+        goals: 2,
         assists: 0
       },
       {
         id: 2,
         name: "Marcos Rojo",
-        goals: 0,
+        goals: 1,
         assists: 1
+      },
+      {
+        id: 3,
+        name: "Ever Banega",
+        goals: 0,
+        assists: 2
+      },
+      {
+        id: 4,
+        name: "Gabriel Mercado",
+        goals: 1,
+        assists: 1
+      },
+      {
+        id: 5,
+        name: "Lionel Messi",
+        goals: 1,
+        assists: 2
+      },
+      {
+        id: 6,
+        name: "Angel Di Maria",
+        goals: 1,
+        assists: 0
       }
     ]
   },
@@ -323,6 +408,12 @@ export const playerData = [
       {
         id: 1,
         name: "Alfred Finnbogason",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 2,
+        name: "Gylfi Sigurdsson",
         goals: 1,
         assists: 0
       }
@@ -361,6 +452,30 @@ export const playerData = [
         name: "Ivan Rakitic",
         goals: 1,
         assists: 0
+      },
+      {
+        id: 6,
+        name: "Milan Badelj",
+        goals: 1,
+        assists: 1
+      },
+      {
+        id: 7,
+        name: "Josip Pivaric",
+        goals: 0,
+        assists: 1
+      },
+      {
+        id: 8,
+        name: "Ivan Perisic",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 9,
+        name: "Mario Mandzukic",
+        goals: 1,
+        assists: 0
       }
     ]
   },
@@ -377,7 +492,7 @@ export const playerData = [
       {
         id: 2,
         name: "Victor Moses",
-        goals: 0,
+        goals: 1,
         assists: 1
       },
       {
@@ -396,7 +511,7 @@ export const playerData = [
         id: 1,
         name: "Philippe Coutinho",
         goals: 2,
-        assists: 0
+        assists: 1
       },
       {
         id: 2,
@@ -413,6 +528,18 @@ export const playerData = [
       {
         id: 4,
         name: "Neymar",
+        goals: 1,
+        assists: 1
+      },
+      {
+        id: 5,
+        name: "Paulinho",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 6,
+        name: "Thiago Silva",
         goals: 1,
         assists: 0
       }
@@ -445,13 +572,50 @@ export const playerData = [
         name: "Mario Gavranovic",
         goals: 0,
         assists: 1
+      },
+      {
+        id: 5,
+        name: "B. Dzemaili",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 6,
+        name: "Breel Embolo",
+        goals: 0,
+        assists: 1
+      },
+      {
+        id: 7,
+        name: "Denis Zakaria",
+        goals: 0,
+        assists: 1
+      },
+      {
+        id: 8,
+        name: "Josip Drmic",
+        goals: 1,
+        assists: 0
       }
     ]
   },
   {
     team: "Costa Rica",
     teamid: 19,
-    players: []
+    players: [
+      {
+        id: 1,
+        name: "K. Waston",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 2,
+        name: "Joel Campbell",
+        goals: 0,
+        assists: 1
+      }
+    ]
   },
   {
     team: "Serbia",
@@ -538,14 +702,20 @@ export const playerData = [
       {
         id: 2,
         name: "Andreas Granqvist",
-        goals: 1,
+        goals: 2,
         assists: 0
       },
       {
         id: 3,
         name: "Viktor Claesson",
         goals: 0,
-        assists: 1
+        assists: 2
+      },
+      {
+        id: 4,
+        name: "Augustinsson",
+        goals: 1,
+        assists: 0
       }
     ]
   },
@@ -556,12 +726,24 @@ export const playerData = [
       {
         id: 1,
         name: "Heung-Min Son",
-        goals: 1,
+        goals: 2,
         assists: 0
       },
       {
         id: 2,
         name: "Jae-Sung Lee",
+        goals: 0,
+        assists: 1
+      },
+      {
+        id: 3,
+        name: "Young-Gwon Kim",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 4,
+        name: "Se-Jong Joo",
         goals: 0,
         assists: 1
       }
@@ -617,6 +799,12 @@ export const playerData = [
         id: 8,
         name: "Youri Tielemans",
         goals: 0,
+        assists: 2
+      },
+      {
+        id: 9,
+        name: "Adnan Januzaj",
+        goals: 0,
         assists: 1
       }
     ]
@@ -658,12 +846,24 @@ export const playerData = [
       {
         id: 3,
         name: "Wahbi Khazri",
-        goals: 1,
-        assists: 1
+        goals: 2,
+        assists: 2
       },
       {
         id: 4,
         name: "Hamdi Nagguez",
+        goals: 0,
+        assists: 1
+      },
+      {
+        id: 5,
+        name: "Fakhreddine Ben Youssef",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 6,
+        name: "O. Haddadi",
         goals: 0,
         assists: 1
       }
@@ -726,6 +926,18 @@ export const playerData = [
         name: "Kamil Grosicki",
         goals: 0,
         assists: 1
+      },
+      {
+        id: 3,
+        name: "Jan Bednarek",
+        goals: 1,
+        assists: 0
+      },
+      {
+        id: 4,
+        name: "Rafal Kurzawa",
+        goals: 0,
+        assists: 1
       }
     ]
   },
@@ -761,12 +973,12 @@ export const playerData = [
         id: 1,
         name: "Juan Quintero",
         goals: 1,
-        assists: 1
+        assists: 2
       },
       {
         id: 2,
         name: "Yerry Mina",
-        goals: 1,
+        goals: 2,
         assists: 0
       },
       {
